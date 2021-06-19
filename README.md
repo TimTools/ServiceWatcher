@@ -1,8 +1,9 @@
-<h1 align="center">Welcome to ServiceWatcher 👋</h1>
+<h1 align="left">Welcome to ServiceWatcher 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/TimTools/ServiceWatcher" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  <img alt="Type" src="https://img.shields.io/badge/type-alpha-orange" />
   </a>
 </p>
 
@@ -24,13 +25,18 @@ ServiceWatcher -install
 Please add ServiceWatcher.json with modified preferences to C:\Program Files\TimTools\ServiceWatcher (%programfiles%\TimTools\ServiceWatcher)
 ```
 
+## Uninstall
+
+```sh
+ServiceWatcher -uninstall
+```
 ## Run tests
 
 ```sh
 Get-EventLog -LogName Application -Source ServiceWatcher
 ```
 
-## Supported operating systems
+## 💻 Supported operating systems
 - [x] Windows 10
 - [ ] Windows 8/8.1 (Untested)
 - [ ] Windows 7 (Untested)
