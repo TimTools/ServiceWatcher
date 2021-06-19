@@ -1,0 +1,25 @@
+{
+    "name": "ServiceWatcher",
+    "author": "Tim Nissen",
+    "linkedin": "https://www.linkedin.com/in/timnis/",
+    "version": "1.0",
+    "type": "alpha",
+    "settings": 
+        {
+        "interval": "10",
+        "pauseinterval": "30",
+        "restartattempts": "3",
+        "restartinterval": "10",
+        "services": 
+        [
+            "CAMService",
+            "CorsairGamingAudioConfig",
+            "CorsairLLAService",
+            "CorsairMsiPluginService",
+            "CorsairService",
+            "ArmouryCrateService",
+            "LightingService"
+        ],
+        "desiredstate": "Running"
+        }
+}
