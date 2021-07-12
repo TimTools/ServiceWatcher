@@ -16,7 +16,7 @@
 ## Install
 
 ```sh
-ServiceWatcher -install
+ServiceWatcher.exe -install
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ Please add ServiceWatcher.json with modified preferences to C:\Program Files\Tim
 ## Uninstall
 
 ```sh
-ServiceWatcher -uninstall
+ServiceWatcher.exe -uninstall
 ```
 ## Run tests
 
